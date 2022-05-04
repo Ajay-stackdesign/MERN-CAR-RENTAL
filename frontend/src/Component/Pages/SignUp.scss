@@ -1,0 +1,60 @@
+form {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 20vh;
+  position: absolute;
+  top: 300px;
+  .name {
+    .text {
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      background-color: lightgreen;
+      color: black;
+      height: 30px;
+      width: 400px;
+      margin-bottom: 10px;
+      padding-left: 30px;
+    }
+  }
+  .email {
+    .text {
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      background-color: lightgreen;
+      color: black;
+      height: 30px;
+      width: 400px;
+      margin-bottom: 10px;
+      padding-left: 30px;
+    }
+  }
+  .password {
+    .text {
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      background-color: lightgreen;
+      box-shadow: 2px 2px 2px white;
+      color: black;
+      height: 30px;
+      width: 400px;
+      margin-bottom: 10px;
+      padding-left: 30px;
+    }
+  }
+  .submit {
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    &:hover {
+      background-color: lightgreen;
+      color: black;
+    }
+  }
+}
